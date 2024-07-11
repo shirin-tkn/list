@@ -1,0 +1,11 @@
+def reverse(n):
+    list2=[]
+    i=4
+    while i>=0:
+        list2.append(list1[i])
+        i=i-1
+    print(list2)
+
+if __name__ == '__main__':
+    list1 = [100, 200, 300, 400, 500]
+    reverse(list1)
